@@ -1,7 +1,7 @@
 User Manual
 
 Prerequisite: MySQL
-Create Project called JavaDB
+Create Project called JavaDB, and package name: database
 Copy and Paste all the files and folders into JavaDB folder.
 
 1. Run Main
