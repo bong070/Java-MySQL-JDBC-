@@ -7,12 +7,14 @@ Copy and Paste all the files and folders into JavaDB folder.
 1. Run Main
 2. Type root, press enter for username.
 3. Type enter for password (blank, we are using localhost).
-4. Type database name you wish to create or work with.
+4. Type database name you wish to create or work with (or type sample_tester).
 5. If you see welcome message, type serviceadmin, press enter.
 6. type 5, press enter to create table.
+(If you are not using sample_tester database)
 7. Create follow tables with exact strings
 
      accounts
+8 columns needed
 id VARCHAR(255)
 password VARCHAR(255)
 name VARCHAR(255)
@@ -22,9 +24,10 @@ occup VARCHAR(255)
 sin VARCHAR(255)
 cc VARCHAR(255)
 Y for primarykey
-id
+id,sin
 
      listing
+9 columns needed
 id INT AUTO_INCREMENT
 type VARCHAR(255)
 lat FLOAT
@@ -38,24 +41,29 @@ Y for primarykey
 id
 
      amenities
+2 columns needed
 id INT
-amenities INT
+amen INT
 N for primarykey
 
      calendar
+3 columns needed
 id INT
 month INT
 date INT
 N for primarykey
 
      booking
+3 columns needed
 id INT
 month INT
 date INT
 n for primarykey
 
      distance
+2 columns needed
 id INT
 dist INT
+n for primarykey
 
 After this setup you are ready to go.
