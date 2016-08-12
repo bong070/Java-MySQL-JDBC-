@@ -23,5 +23,6 @@ System Limitations:
 2. System does not check format of user_input. User can apply any string into string type field or any integer into int type field.
 3. System does not check validity of user's credit card information.
 4. When user tries to search by city or address, this will only show matching list. Not adjacent.
+5. System now has text-based UI.
 
 System limitations above can be fixed easily if the time allows.
