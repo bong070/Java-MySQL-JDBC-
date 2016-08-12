@@ -1,0 +1,61 @@
+User Manual
+
+Prerequisite: MySQL
+Create Project called JavaDB
+Copy and Paste all the files and folders into JavaDB folder.
+
+1. Run Main
+2. Type root, press enter for username.
+3. Type enter for password (blank, we are using localhost).
+4. Type database name you wish to create or work with.
+5. If you see welcome message, type serviceadmin, press enter.
+6. type 5, press enter to create table.
+7. Create follow tables with exact strings
+
+     accounts
+id VARCHAR(255)
+password VARCHAR(255)
+name VARCHAR(255)
+addr VARCHAR(255)
+dob VARCHAR(255) 
+occup VARCHAR(255)
+sin VARCHAR(255)
+cc VARCHAR(255)
+Y for primarykey
+id
+
+     listing
+id INT AUTO_INCREMENT
+type VARCHAR(255)
+lat FLOAT
+lon FLOAT
+street VARCHAR(255)
+city VARCHAR(255)
+country VARCHAR(255)
+price INT
+status VARCHAR(255)
+Y for primarykey
+id
+
+     amenities
+id INT
+amenities INT
+N for primarykey
+
+     calendar
+id INT
+month INT
+date INT
+N for primarykey
+
+     booking
+id INT
+month INT
+date INT
+n for primarykey
+
+     distance
+id INT
+dist INT
+
+After this setup you are ready to go.
