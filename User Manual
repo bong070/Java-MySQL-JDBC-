@@ -3,6 +3,7 @@ User Manual
 Prerequisite: MySQL
 Create Project called JavaDB, and package name: database
 Copy and Paste all the files and folders into JavaDB folder.
+(if you are trying to use sample_tester database, paste sample_tester folder into MySQL root)
 
 1. Run Main
 2. Type root, press enter for username.
